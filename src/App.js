@@ -2,10 +2,10 @@ import { useState } from 'react';
 import './style.scss';
 import Popup from './components/popup';
 
-
 //state 생성 true, false
 //jsx에서 state 값이 true 일 때만 Popup보이도록 처리
 //버튼 클릭 할 때 마다 state의 true, false값 변경
+
 function App() {
 	const [Open, setOpen] = useState(false);
 
@@ -19,4 +19,3 @@ function App() {
 }
 
 export default App;
-
