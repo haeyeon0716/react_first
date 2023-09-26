@@ -17,3 +17,11 @@ aside{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+article{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    margin: 50px;
+    transition: 0.5s;
+}
